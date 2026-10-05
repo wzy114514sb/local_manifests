@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="Mainline"
-          fetch="https://github.com/me-cafebabe-aosp-mainline"
+          fetch="https://gh-proxy.org/https://github.com/me-cafebabe-aosp-mainline"
           revision="lineage-24.0" />
 
   <remote name="Mainline-dep-AOSP"
-          fetch="https://android.googlesource.com"
+          fetch="https://mirrors.bfsu.edu.cn/git/AOSP"
           revision="android17-release" />
 
   <remote name="Mainline-dep-BayLibre"
@@ -13,6 +13,6 @@
           revision="ti-android-15" />
 
   <remote name="Mainline-dep-LineageOS"
-          fetch="https://github.com/LineageOS"
+          fetch="https://gh-proxy.org/https://github.com/LineageOS"
           revision="lineage-24.0" />
 </manifest>
